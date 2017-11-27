@@ -27,11 +27,11 @@ After you have deployed the Geofinder API app from Asset Hub, log into your Righ
 
 Once you've found your deployment, select it to see the overview page:
 
-![](./img/rightscale_cluster_overview)
+![](./img/rightscale_cluster_overview.png)
 
 Then select "Cluster 1 Seed"
 
-![](./img/rightscale_seed1_details)
+![](./img/rightscale_seed1_details.png)
 
 
  
