@@ -22,7 +22,7 @@ The Geofinder application leverages DSE Search's geospatial, type-ahead, and fac
 
 ---
 
-## Demo Script
+# Demo Script
 After you have deployed the Geofinder API app from Asset Hub, log into your Rightscale account and find your deployment, it will be named "assethub-*your.name*@datastax.com---", with a long deployment ID following the "---." For example, the one I spun up for the screenshots in this script is named "assethub-phil.bayliss@datastax.com---35b3c9fc-bb30-4ae8-9db0-d463436392fe-2m25y5r7lakxg."
 
 Once you've found your deployment, select it to see the overview page:
@@ -41,8 +41,8 @@ Now that you have your Public IP address you can access three different apps tha
 --- 
 
 
-### GeoFinder Application
-##### Tab 1 - "Map Search (Find)"
+## GeoFinder Application
+### Tab 1 - "Map Search (Find)"
 This tab is for locating various points of interest (POIs). The value here is that the transactional data stored in DSE is being displayed in a user-friendly format, allowing the user to explore via a search box or map interface. You can keep the user in the default location of Washington, DC or move it to anywhere else in the US. Just select the "Move User" button and drag it to wherever you want on the map. (The dataset loaded for this app is POIs within the continental US). You can also navigate on the map by holding the "shift" key and dragging your mouse over the map, creating a bounding box for the app to display.
 
 ![](./img/tab1_home.png)
@@ -63,7 +63,7 @@ The other button under the search bar is "CQL." Select this after you've done a 
 
 ![](./img/tab1_CQL.png)
 
-##### Tab 2 - "Map Facets (Discover)"
+### Tab 2 - "Map Facets (Discover)"
 This tab does just as you would think - it gives the user the ability to find different categories of businesses within the region of the map that is displayed. The application is leveraging a faceted search capability based on a bounded box region of the map (what is visible on the screen). Zooming in and out of the map will automatically update the facet totals, as well as show any applicable subfacets that exist:
 
 ![](./img/tab2_facet_home.png)
@@ -74,13 +74,13 @@ Selecting a facet allows you to see the details of the business that make it up.
 
 -------
 
-##### OpsCenter
+### OpsCenter
 
 If needed for your demo, you can access OpsCenter and give a tour of it at <http://publicIP:8888/>:
 
 ![](.img/opscenter.png)
 
-##### Solr Admin UI
+### Solr Admin UI
 
 The Solr Admin UI is accessible if needed. Typically this will be useful if you want to show the schema.xml or config.xml files to any experienced Solr users.
 
