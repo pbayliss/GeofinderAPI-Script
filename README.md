@@ -78,7 +78,7 @@ Selecting a facet allows you to see the details of the business that make it up.
 
 If needed for your demo, you can access OpsCenter and give a tour of it at <http://publicIP:8888/>:
 
-![](.img/opscenter.png)
+![](./img/opscenter.png)
 
 ### Solr Admin UI
 
